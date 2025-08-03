@@ -1,0 +1,327 @@
+general:
+  back: "• 戻る •"
+  back_to_main_menu: "• メインメニューに戻る •"
+  back_to_settings: "• 設定に戻る •"
+  back_to_settings_api: "• API設定に戻る •"
+  back_to_bot_list: "⬅️ ボットリストに戻る"
+  back_to_group_selection: "• グループ選択に戻る •"
+  back_to_vvip_list: "• VVIPリストに戻る •"
+  close_panel: "パネルを閉じる"
+  cancelled: "🚫 プロセスはキャンセルされました。"
+  timeout: "⏰ タイムアウトしました。プロセスはキャンセルされました。"
+  error: "❌ エラーが発生しました:\n`{e}`"
+  success: "✅ 成功しました！"
+  processing: "⏳ しばらくお待ちください..."
+  invalid_input_timeout: "無効な入力またはタイムアウトしました。プロセスはキャンセルされました。"
+  no_access: "🚫 このメニューへのアクセス権がありません。"
+  invalid_format: "**形式が正しくありません。**"
+  not_your_bot: "これはあなたのボットではありません。"
+  invalid_callback: "無効なコールバックデータです。"
+  no_access_decorator: "🚫 **アクセスが拒否されました！**\nこのコマンドを使用する権限がありません。"
+
+prompts:
+  cancel_footer: "\n\nキャンセルするには `/batal` と入力してください。"
+  skip_footer: "\nデフォルトのテキストを使用するには `/skip` と入力してください。"
+
+start:
+  welcome_main_bot: "**👋🏻 ようこそ、{mention}さん！**\n\n私はあなた自身のVVIPボットを作成・管理するためのメインアシスタントです。下のボタンから利用可能な全ての機能をご覧ください。"
+  welcome_clone_bot: "**👋🏻 ようこそ、{mention}さん！**\n\n私は限定コンテンツにアクセスするためのあなたのパーソナルアシスタントです。下のボタンから利用可能な全ての機能をご覧ください。"
+  create_bot: "🤖 ボットを作成"
+  my_bots: "📦 マイボット"
+  settings_panel: "⚙️ 設定パネル ⚙️"
+  list_vvip: "📚 VVIPリストを見る 📚"
+  donate: "❤️ 寄付する"
+  about_bot: "ℹ️ ボットについて ℹ️"
+  ai_feature: "✨ AI機能 ✨"
+  language: "🌐 言語"
+
+about:
+  panel: "**🌟 このVVIPボットについて**\n\nようこそ！私はVVIPグループへのアクセスを簡単にするために設計された自動アシスタントです。\n\n**🤖 主な機能:**\nQRIS経由の安全な自動支払いシステムを提供し、取引成功後にプレミアムコンテンツへの即時アクセスを保証します。\n\n**🚀 利用の流れ:**\n1. **パッケージを選択:** 利用可能なVVIPのリストを閲覧します。\n2. **支払いを行う:** 私が提供するQRISをスキャンします。\n3. **即時アクセス:** 支払い確認後、招待リンクが自動的に送信されます。\n\n全てのプロセスは、迅速かつ安全で、手動での確認を待つ必要なく設計されています！"
+  description: "私はQRIS経由の安全な自動支払いシステムを通じて、VVIPグループへの簡単なアクセスを提供するように設計された自動アシスタントです。"
+
+lang:
+  select: "**🌐 ご希望の言語を選択してください**"
+  selected: "✅ 言語が日本語に変更されました。"
+  button_en: "🇬🇧 英語 (English)"
+  button_id: "🇮🇩 インドネシア語 (Indonesian)"
+  button_ja: "🇯🇵 日本語 (Japanese)"
+
+vvip_list:
+  empty: "🗂️ 現在、利用可能なVVIPパッケージはありません。"
+  panel: "**📚 VVIPボットリスト: {mention}**\n\nこちらが提供する限定パッケージのリストです。パッケージをクリックして詳細と特別オファーをご覧ください。"
+  button_package: "📂 {name}"
+  button_promo: "🎉 プロモ {name}"
+
+donation:
+  panel: "**❤️ Telegramスターで私たちを支援してください！**\n\nあなたの寄付は、このボットの開発と維持を続けるための大きな助けとなります。\n\n皆様からのスター一つ一つが、私たちのイノベーションへの励みになります。下の寄付額を選択して開始してください。\n\nご支援ありがとうございます！"
+
+ai:
+  disabled: "**❌ AIが無効です**\n設定パネルでGemini APIキーをセットアップしてください。"
+  unavailable: "申し訳ありませんが、現在AI機能は利用できません。"
+  setup_button: "• APIキーを設定 •"
+  panel: "**✨ Gemini AIアシスタント**\n対話モードを選択してください。"
+  khodam_button: "👻 守護霊チェック (娯楽)"
+  chatbot_button: "💬 アシスタントとチャット"
+  khodam_prompt: "🔮 **守護霊鑑定**\n**フルネーム**を入力してください。"
+  khodam_analyzing: "✨ **{name}** のエネルギーを分析中`...`"
+  khodam_result_title: "**--- {name}の守護霊鑑定結果 ---**\n\n**>{result}**"
+  khodam_try_again_button: "• 別の名前を試す •"
+  back_to_ai_menu_button: "• AIメニューに戻る •"
+  chatbot_intro: "💬 **こんにちは！何かお手伝いできることはありますか？**\n私は **{bot_name}** ボットのAIアシスタントです。使い方、VVIPパッケージの価格、その他このボットに関するどんなことでも質問できます。\n\nチャットセッションを終了するには `/stop` と入力してください。"
+  chatbot_system_instruction: "あなたはこのTelegramボットのための賢くて役立つAIアシスタントです。ボットの名前は「{bot_name}」です。あなたのタスクは、このボットの機能やオファーに関するユーザーの質問に答えることです。以下の情報を主要な知識源として使用しなければなりません。\n\n--- ボットのコンテキスト情報 ---\n1. **ボットについて**: {about_bot}\n2. **VVIPパッケージリストと価格**: {vvip_info}\n3. **購入方法**: ユーザーはメインメニューの「VVIPリストを見る」ボタンを押してパッケージ詳細を確認し、支払いを開始する必要があります。\n4. **その他**: 質問がボットのコンテキスト外である場合は、AIアシスタントとして一般的かつフレンドリーに答えてください。\n--- 情報の終わり ---\n\nすべての質問に、簡潔かつ明確に日本語で答えてください。"
+  session_stopped: "✅ チャットセッションが停止しました。"
+  session_expired: "⏰ 操作がなかったため、セッションが終了しました。"
+  error: "申し訳ありません、AIシステムで問題が発生しました。\n`エラー: {e}`"
+
+admin:
+  eval:
+    processing: "`🔄 コードを処理中...`"
+    no_code: "❌ **コマンド失敗:** 評価するコードを提供してください。"
+    success: "✅ **実行成功**"
+    output: "**🖥️ 出力:**\n<pre>{output}</pre>\n\n**⏳ 実行時間:** `{time:.4f}` 秒"
+    too_long_caption: "📄 評価結果が長すぎます。ファイルとして送信しました。"
+  restore:
+    usage: "⚠️ **使用方法が正しくありません:**\nボットから送信された `.zip` バックアップファイルに返信してください。"
+    wrong_format: "❌ **ファイル形式が正しくありません:**\n復元できるのは `.zip` 形式のバックアップファイルのみです。"
+    processing: "⏳ `バックアップファイルをダウンロード＆展開中...`"
+    empty_zip: "この .zip ファイルは空または破損しています。"
+    success: "✅ **復元成功！**\nデータベース `{db_path}` が復元されました。\n\n⚠️ **重要:** 新しいデータベースを使用するために、ボットを**再起動**してください。"
+    fail: "❌ **復元失敗！**\n\n**エラー:** `{e}`"
+  access:
+    usage_error: "**形式が正しくありません。**\n使用法: `/akses <ユーザーIDまたはユーザー名>`"
+    panel: "**🔑 ボット作成アクセスの管理**\n\n**👤 ユーザー:** {mention}\n**🆔 ID:** `{id}`\n**📊 ステータス:** `{status}`\n\nこのユーザーに対するアクションを選択してください:"
+    has_access: "✅ アクセス権あり"
+    no_access: "❌ アクセス権なし"
+    give_button: "✅ アクセスを許可"
+    revoke_button: "❌ アクセスを取り消す"
+    give_success_alert: "✅ {target_id}にアクセスを許可しました"
+    revoke_success_alert: "❌ {target_id}からアクセスを取り消しました"
+    process_fail: "処理に失敗しました。エラー: {e}"
+    give_success_panel: "✅ **アクセスを許可しました！**\n\nユーザー {mention} はこのボットを使用して新しいボットを作成できるようになりました。"
+    revoke_success_panel: "❌ **アクセスを取り消しました！**\n\nユーザー {mention} はボットを作成する権限を失いました。"
+  extend:
+    usage_error: "**形式が正しくありません。** 使用法: `/extend <ボットID> <日数>`\n例: `/extend 12345678 30`"
+    success: "✅ **成功！** ボット `{bot_id}` の有効期間が変更されました。新しい有効期限: `{new_date}`。"
+    notification: "🎉 **朗報です！**\n\nあなたのボット **{bot_name}** の有効期間がメインオーナーによって延長されました。"
+    fail: "❌ エラーが発生しました: `{e}`"
+  allbots:
+    empty: "まだどのユーザーによってもボットは作成されていません。"
+    panel: "**📦 全ボットのリスト ({page}/{total})**\n\n• **ボット名:** {bot_name}\n• **ボットID:** `{bot_id}`\n• **ボットユーザー名:** @{username}\n• **オーナー:** {owner}\n• **有効期限まで:** `{days_left}` 日"
+    offline: "(オフライン)"
+    error: "(エラー)"
+    unknown: "不明"
+    prev_button: "« 前へ"
+    next_button: "次へ »"
+    days: "日"
+  refund:
+    no_permission: "🚫 これを行う権限がありません。"
+    fail_not_found: "\n\n**⚠️ 失敗: 取引が見つからないか、既に返金済みです。**"
+    success_text: "\n\n✅ 寄付は正常に返金されました。"
+    success_notif: "ℹ️ **寄付に関するお知らせ**\n\nあなたのスターによる寄付は、管理者によって返金されました。ご理解のほど、よろしくお願いいたします。"
+    fail_text: "\n\n**❌ 寄付の返金に失敗しました:**\n`{e}`"
+
+bot_management:
+  create:
+    new_user_notification: "**👤 新しいユーザーがあなたのボットを開始しました！**\n\n**ボット:** {mention}\n**ユーザー:** {user_mention}\n**ID:** `{user_id}`"
+    no_access: "**🚫 アクセスが拒否されました**\n\n{mention}に連絡してボット作成のアクセスをリクエストしてください。"
+    step1_api_id: "**🔐 1/3: API IDを入力してください。**\nmy.telegram.orgから取得します。"
+    step2_api_hash: "**🔐 2/3: APIハッシュを入力してください。**\nmy.telegram.orgから取得します。"
+    step3_bot_token: "**🤖 3/3: ボットトークンを入力してください。**\n@BotFatherから取得します。"
+    verifying: "🔍 `データとトークンを確認中...`"
+    invalid_token: "入力されたボットトークンは無効です。"
+    saving: "✅ ボット「{name}」は有効で保存されました。`🚀 起動中...`"
+    success: "🎉 **おめでとうございます！** ボット **{name}** が作成され、**30日間**有効です。"
+    fail: "❌ **ボット作成エラー:** `{e}`"
+    main_bot_inactive: "メインボットがアクティブでないため、通知を送信できません。"
+  my_bots:
+    empty: "まだボットを所有していません。「ボットを作成」を押して開始してください。"
+    panel: "**📦 マイボットリスト ({page}/{total})**\n\n• **ボット名:** {bot_name}\n• **ボットID:** `{bot_id}`\n• **ボットユーザー名:** @{username}\n• **有効期限まで:** `{days_left}` 日"
+    manage_button: "⚙️ {name}を管理"
+  manage:
+    panel: "**⚙️ ボット管理: {name}**\n\n**ボットID:** `{id}`\n**残りの有効期間:** `{days_left}`\n\n実行したいアクションを選択してください:"
+    not_set: "未設定"
+    extend_button: "➕ 期間延長をリクエスト"
+    delete_button: "🗑️ このボットを削除"
+  extend:
+    panel_owner: "**🔔 期間延長リクエスト**\n\n**ユーザー:** {mention} (`{id}`)\n**ボット:** **{bot_name}** (`{bot_id}`)\n\nこのボットの有効期間を30日間延長することを承認します。"
+    approve_button: "✅ 承認 (+30日)"
+    reject_button: "❌ 拒否"
+    sent_alert: "✅ 延長リクエストがメインオーナーに送信されました。承認された場合は通知されます。"
+    fail_alert: "❌ オーナーへのリクエスト送信に失敗しました: {e}"
+    approve_denied: "メインオーナーのみがこのリクエストを承認できます。"
+    approve_success_log: "✅ **承認成功！**\nボット`{bot_id}`の期間が**{days}日間**延長されました。"
+    approve_success_notif: "🎉 **朗報です！**\n\nあなたのボット **{bot_name}** の延長リクエストが承認され、期間が延長されました。"
+    approve_fail: "❌ リクエストの承認に失敗しました: `{e}`"
+    reject_denied: "これを実行できるのはメインオーナーのみです。"
+    rejected_log: "🚫 リクエストはメインオーナーによって拒否/クローズされました。"
+  delete:
+    confirm_panel: "**⚠️ 削除の確認**\n\n本当にボット **{name}** (`{id}`) を完全に削除しますか？\n\n__この操作は元に戻すことはできず、すべてのデータ（メンバー、パッケージ、設定）が失われます。__"
+    confirm_yes_button: "✅ はい、削除します"
+    confirm_no_button: "❌ いいえ、キャンセルします"
+    no_permission: "あなたはこのボットを削除する権限がありません。"
+    processing: "⏳ ボット `{id}` を停止・削除しています..."
+    success: "✅ **削除成功！**\nボット `{id}` とそのデータはシステムから削除されました。"
+    fail: "❌ ボットの削除中にエラーが発生しました: `{e}`"
+
+member:
+  list:
+    empty: "✅ データベースにVVIPメンバーの記録はありません。"
+    panel: "**👥 VVIPメンバーリスト ({page}/{total})**\n\n**名前:** {mention}\n**ID:** `{id}`\n**カテゴリ:** `{category}` ({type})\n**参加日:** `{date}`\n**会員期間:** `{duration}` 日"
+    data_error: "このメンバーのデータは破損しているか、ユーザーにアクセスできなくなっているようです。\n`エラー: {e}`\n\nデータの整合性を保つため、このエントリはリストから削除されました。"
+    kick_button: "🚨 {name}を追放"
+  kick:
+    confirm_panel: "**⚠️ 追放の確認**\n\n本当に **{mention}** をVVIPグループ **{name}** から追放しますか？\n\nユーザーはグループから削除され、メンバーシップデータも消去されます。"
+    confirm_yes_button: "✅ はい、追放します"
+    confirm_no_button: "❌ いいえ"
+    record_not_found: "❌ **失敗:** メンバーシップ記録がデータベースに見つかりません。"
+    invalid_chat_id: "❌ **失敗:** メンバーを追放するためのチャットIDが無効か、VVIPパッケージで設定されていません。"
+    processing: "⏳ `グループからのメンバー追放を処理中...`"
+    success: "✅ **成功！**\nユーザー{mention}は **{name}** から追放され、リストから削除されました。"
+    fail: "❌ **追放失敗:** `{e}`"
+  active_list:
+    panel: "**🕵️ アクティブメンバーのリアルタイムチェック**\n\n現在のメンバーリストを確認したいグループを選択してください。"
+    button_normal: "👥 '{name}' 通常をチェック"
+    button_promo: "👥 '{name}' プロモをチェック"
+    no_valid_chat_id: "有効なチャットIDが設定されたVVIPがありません。最初に設定してください。"
+    fetching: "⏳ Telegramサーバーからメンバーデータを取得中、お待ちください..."
+    fetch_fail: "❌ **メンバーリストの取得に失敗:**\n`{e}`"
+    empty: "このグループにはメンバー（非ボット）が見つかりませんでした。"
+    member_panel: "**🕵️ アクティブメンバー ({page}/{total})**\n\n**名前:** {mention}\n**ID:** `{id}`\n**ステータス:** `{status}`"
+    kick_confirm_panel: "**⚠️ 確認**\n\n本当に **{mention}** をグループから追放しますか？"
+    kick_confirm_yes_button: "✅ はい"
+    kick_confirm_no_button: "❌ いいえ"
+    kick_processing: "⏳ `ユーザーを追放中...`"
+    kick_success: "✅ **成功！**\nユーザー **{mention}** はグループから追放されました。"
+
+payment:
+  notes:
+    not_found: "❌ VVIPパッケージが見つかりません。"
+    pay_button: "💸 通常価格で支払う"
+  promo:
+    not_found: "❌ プロモパッケージが見つからないか、有効ではありません。"
+    pay_button: "✅ プロモ価格で支払う"
+  pay:
+    service_inactive_panel: "⚠️ **支払いサービスが非アクティブです**\n\n最初に支払いゲートウェイのAPIキーを設定してください。"
+    service_inactive_alert: "申し訳ありませんが、現在支払いサービスは利用できません。"
+    setup_api_button: "⚙️ APIキーを設定"
+    not_found: "❌ このVVIPパッケージはもう見つかりません。"
+    invalid_price: "❌ このパッケージの価格は無効です（0以下）。"
+    qr_fail: "QRIS画像のダウンロードに失敗しました。"
+    invoice_full: |
+      **✅ 支払いの準備ができました！**
+
+      上のQRISをスキャンして支払いを行ってください。
+
+      ╭─ **請求詳細**
+      │
+      ├─ 🛍️ **製品:** VVIP {name} ({type})
+      ├─ 💳 **金額:** `Rp {amount}`
+      ├─ 🆔 **注文ID:** `{id}`
+      │
+      ╰─ ⏳ **重要:** この請求書は**15分**で有効期限が切れます。
+  check:
+    category_missing: "VVIPカテゴリ「{name}」がデータベースに見つかりません。支払いは成功しましたが、グループリンクを提供できませんでした。管理者に連絡してください。"
+    success_customer_full: "🎉 **支払いが確認されました！**\n\nありがとうございます。こちらが **{name}** パッケージのアクセスリンクです:\n\n{link}"
+    success_owner_notif: "💰 **新規収入！**\n\n**ユーザー:** {mention}\n**ボット:** {bot_mention}\n**カテゴリ:** `{name}` ({type})"
+    expired_msg: "⌛ **請求書の有効期限が切れました。**\n注文ID `{id}` は支払い期限を超過したためキャンセルされました。"
+  donation:
+    invoice_title: "ボット開発のための寄付"
+    invoice_desc: "{stars}スターのご支援、大変感謝いたします。ありがとうございます！"
+    invalid_amount: "無効な寄付額です！"
+    preparing: "寄付用の請求書を準備中..."
+    invoice_fail: "請求書の作成に失敗しました。後でもう一度お試しください。"
+    success_msg: "🎉 **{name}さん、本当にありがとうございます！**\n\n**{stars}スター (⭐)** の寄付を受け取りました。\nあなたの支援が私たちの情熱の源です。素晴らしい一日をお過ごしください！"
+    owner_notif: "**✨ 新しい寄付を受け取りました！**\n\n**金額:** `{stars}` スター (⭐)\n**送信者:** {mention} (`{id}`)\n**経由ボット:** {bot_mention}"
+    refund_button: "🔙 寄付を返金"
+    owner_blocked_notif: "⚠️ **通知送信失敗**\n\n{mention}からの`{stars}`スターの寄付通知が、ボット`{bot_name}`のオーナーにブロックされているため送信できませんでした。"
+  defaults:
+    notes_text: |
+      ╭─ **✨ VVIPパッケージ詳細**
+      │
+      ├─ 📂 **パッケージ名:** `{name}`
+      ├─ 📝 **説明:** 支払い成功後、プレミアムで独占的なコンテンツに即座にアクセスできます。
+      │
+      ├─ 💳 **通常価格:** `Rp {price}`
+      │
+      ╰─ 下の「支払う」ボタンをクリックして続行してください！
+    promo_text: |
+      ╭─ **🎉 限定特別オファー！**
+      │
+      ├─ 📂 **パッケージ名:** `{name}`
+      ├─ 📝 **説明:** この絶好の機会をお見逃しなく！より手頃な価格で参加できます。
+      │
+      ├─ 💰 **プロモ価格:** `Rp {promo_price}`
+      │
+      ╰─ プロモが終了する前に、今すぐあなたの席を確保してください！
+
+settings:
+  panel: "**🛠️ オーナー設定パネル**\n\nボットのコントロールセンターへようこそ！下のメニューを選択して、ボットの様々な側面を管理してください。"
+  set_start_photo: "🖼️ 開始写真の設定"
+  set_start_text: "✍️ 開始テキストの設定"
+  add_vvip: "➕ VVIPを追加"
+  del_vvip: "➖ VVIPを削除"
+  check_members: "👥 VVIPメンバーを確認"
+  check_active_members: "🕵️ アクティブメンバーを確認"
+  api_keys: "🔑 APIキーの管理"
+  broadcast: "📢 ブロードキャストを作成"
+  stats_button: "⭐ スター統計"
+  
+  set_photo_prompt: "🖼️ **開始写真の設定**\n\n/startメッセージの画像として使用したい新しい写真を送信してください。\n\n現在の写真を削除してデフォルトに戻すには `/empty` と入力してください。"
+  set_photo_fail: "❌ **失敗:** 送信されたメッセージは写真ではありません。プロセスはキャンセルされました。"
+  set_photo_success: "✅ **成功！** /start写真が更新されました。"
+  photo_emptied: "✅ **成功！** /start写真が削除され、デフォルトに戻ります。"
+  
+  set_text_prompt: "✍️ **開始テキストの設定**\n\n/startメッセージ用の新しいテキストを送信してください。ユーザーに挨拶するために `{mention}` 変数を使用できます。\n\n**例:** `こんにちは{mention}、私のボットへようこそ！`\n\nカスタムテキストを削除してデフォルトに戻すには `/empty` と入力してください。"
+  set_text_fail: "❌ **失敗:** 送信されたメッセージにテキストが含まれていません。"
+  set_text_success: "✅ **成功！** /startテキストが更新されました。"
+  text_emptied: "✅ **成功！** /startテキストが削除され、デフォルトに戻ります。"
+
+  broadcast_prompt: "**📢 ブロードキャストメッセージを送信**\n\nこのボットを開始したすべてのユーザーにブロードキャストしたいメッセージを転送または送信してください。ボタンフォーマットを使用できます。"
+  broadcast_no_users: "❌ **失敗:** ブロードキャストするユーザーがいません。"
+  broadcast_start: "✅ `{count}`人のユーザーにブロードキャストを開始中..."
+  broadcast_done: "**📢 ブロードキャスト完了！**\n✔️ **送信成功:** `{success}`\n❌ **送信失敗:** `{fail}`（失敗したユーザーはデータベースから削除されました）"
+
+  setup_vvip:
+    step1_name: "**✍️ ステップ1/9: カテゴリ名**\n例: `月額VVIP`"
+    step2_price: "**💰 ステップ2/9: 通常価格**\n例: `50000`（ドットやカンマなし）"
+    step3_link: "**🔗 ステップ3/9: 通常グループリンク**\n例: `https://t.me/+AbcdeFghij`"
+    step4_chat_id: "**🆔 ステップ4/9: 通常グループのチャットID**\n例: `-100123456789`"
+    step5_promo_price: "**🎉 ステップ5/9: プロモ価格**\nプロモ価格がない場合は`0`を送信してください。"
+    step6_promo_link: "**🔗 ステップ6/9: プロモグループリンク**\nプロモ価格 > 0の場合に入力。"
+    step7_promo_chat_id: "**🆔 ステップ7/9: プロモグループのチャットID**\nプロモ価格 > 0の場合に入力。"
+    step8_promo_text: "**📝 ステップ8/9: プロモ説明テキスト**\n`{name}`と`{promo_price}`を使用。"
+    step9_normal_text: "**📝 ステップ9/9: 通常説明テキスト**\n`{name}`と`{price}`を使用。"
+    err_must_be_number: "入力は数字でなければなりません。"
+    err_must_be_link: "入力は有効なリンク（http/httpsで始まる）でなければなりません。"
+    err_must_be_chat_id: "入力は数字のチャットID（通常-100で始まる）でなければなりません。"
+    success: "✅ **成功！**\nVVIPパッケージ **{name}** が追加されました。"
+    cancelled: "🚫 ユーザーによってVVIPパッケージのセットアップがキャンセルされました。"
+
+  delete_vvip_panel: "**🗑️ VVIPパッケージを削除**\n\nリストから削除したいVVIPパッケージを選択してください。"
+  delete_vvip_empty: "✅ 素晴らしい！削除するVVIPパッケージはありません。"
+  delete_vvip_button: "🗑️ {name}を削除"
+  delete_vvip_success: "✅ **成功！** パッケージ **{name}** が削除されました。"
+  delete_vvip_fail: "❌ **失敗！** パッケージ **{name}** はもう見つかりません。"
+  
+  api_panel: "**🔑 {mention}用APIキーマネージャー**\n\n支払い機能やAI機能を有効にするために、サードパーティサービスのAPIキーを設定します。\n\n**サービス状況:**\n- `支払いゲートウェイ (Violet)`: **{violet_status}**\n- `AIアシスタント (Gemini)`: **{gemini_status}**\n\nアクションを選択してください:"
+  api_status_active: "✅ アクティブ"
+  api_status_inactive: "❌ 未設定"
+  api_set_violet: "💳 Violetキーを設定"
+  api_set_gemini: "🤖 Geminiキーを設定"
+  api_del_all: "🗑️ すべてのキーを削除"
+  api_set_violet_1: "**1/2:** **VIOLET_API_KEY**を送信してください。"
+  api_set_violet_2: "**2/2:** **VIOLET_SECRET_KEY**を送信してください。"
+  api_set_gemini_prompt: "🔑 **{key_name}**を送信してください。"
+  api_set_success: "✅ **成功！**\n`{key_name}`のキーが保存され、関連サービスが有効になりました。"
+  api_del_confirm_panel: "**⚠️ 確認**\n\n本当にこのボットの**すべて**のAPIキー（Violet & Gemini）を削除しますか？"
+  api_del_confirm_yes_button: "✅ はい、すべて削除します"
+  api_del_confirm_no_button: "❌ いいえ、キャンセルします"
+  api_del_success: "✅ このボットのすべてのAPIキーが正常に削除されました。"
+  
+stats:
+  panel: "**📊 スター収入統計**\n\n💰 **現在の残高:** `{balance}` ⭐\n📈 **総収入:** `{income}` ⭐\n📉 **総返金:** `{refunds}` ⭐\n🔄 **総取引数（表示分）:** `{count}`\n\n**📜 最近の取引 ({page}/{total_pages})**\n{transactions}"
+  transaction_entry: "• `{date}`: **{amount_str}⭐** from {peer}"
+  transaction_entry_unknown: "不明なソース"
+  no_transactions: "まだスターの取引は記録されていません。"
+  prev_button: "« 前へ"
+  next_button: "次へ »"
